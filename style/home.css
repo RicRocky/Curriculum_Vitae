@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+html {
+    height: 1000px;
+    background-color: #0F1035;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*/////////////////////*/
+/*////// HEADER ///////*/
+/*/////////////////////*/
+header {
+    width: 100%;
+    height: auto;
+}
+
+header .container {
+    height: 50px;
+    position: sticky;
+    display: flex;
+    padding: 3px 80px 0 80px;
+    background-color: rgba(54, 84, 134, 0.45);
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .bagian_1 { 
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .bagian_2 {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*/////////////////*/
+/* Pengaturan Font */
+/*/////////////////*/
+    /* Semua Tulisan */
+    header .container a,
+    header>.container>p {
+        color: #f5f5f5;
+        font-family: "Inknut Antiqua", serif;
+    }
+
+    /* Tulisan Home dan About */
+    header .container .bagian_1 a {
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 3px;
+    }
+
+    /* Tulisan Organisasi dan Skills */
+    header .container .bagian_2 a {
+        font-size: 9.6px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    /* Tulisan Curriculum Vitae */
+    header>.container>p {
+        font-size: 16px;
+        font-weight: 700;
+        font-style: bold;
+    }
+    
